@@ -9,26 +9,62 @@ const timer = document.querySelector('.timer');
 
 
 // Make an array of objects that stores question, choices of question and answer
+// Make an array of objects that stores question, choices of question and answer
 const quiz = [
     {
-        question: "Q. What is the largest planet in our solar system??",
+        question: "Q. What is the largest planet in our solar system?",
         choices: ["EARTH", "MARS", "JUPITER", "SATURN"],
         answer: "JUPITER"
     },
     {
-        question: "Q. :What is the process by which plants make their own food?",
+        question: "Q. What is the process by which plants make their own food?",
         choices: ["Respiration", "Photosynthesis", "Digestion", "Fermentation"],
         answer: "Photosynthesis"
     },
     {
-        question: "Q. Who wrote the play Romeo and Juliet",
-        choices: ["Charles Dickens", " Mark Twain", "William Shakespeare", "Jane Austen"],
-        answer: " William Shakespeare"
+        question: "Q. Who wrote the play Romeo and Juliet?",
+        choices: ["Charles Dickens", "Mark Twain", "William Shakespeare", "Jane Austen"],
+        answer: "William Shakespeare"
     },
     {
         question: "Q. What is the capital of France?",
-        choices: ["Berlin", "Madrid", " Paris", " Rome"],
+        choices: ["Berlin", "Madrid", "Paris", "Rome"],
         answer: "Paris"
+    },
+    {
+        question: "Q. What is the chemical symbol for water?",
+        choices: ["H2O", "O2", "CO2", "NaCl"],
+        answer: "H2O"
+    },
+    {
+        question: "Q. Who painted the Mona Lisa?",
+        choices: ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
+        answer: "Leonardo da Vinci"
+    },
+    {
+        question: "Q. What is the smallest prime number?",
+        choices: ["0", "1", "2", "3"],
+        answer: "2"
+    },
+    {
+        question: "Q. In which year did the Titanic sink?",
+        choices: ["1912", "1905", "1898", "1920"],
+        answer: "1912"
+    },
+    {
+        question: "Q. What is the capital of Japan?",
+        choices: ["Seoul", "Beijing", "Tokyo", "Bangkok"],
+        answer: "Tokyo"
+    },
+    {
+        question: "Q. What is the hardest natural substance on Earth?",
+        choices: ["Gold", "Iron", "Diamond", "Quartz"],
+        answer: "Diamond"
+    },
+    {
+        question: "Q. Who discovered penicillin?",
+        choices: ["Marie Curie", "Alexander Fleming", "Louis Pasteur", "Isaac Newton"],
+        answer: "Alexander Fleming"
     }
 ];
 
